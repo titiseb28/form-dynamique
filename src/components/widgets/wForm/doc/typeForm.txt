@@ -1,0 +1,48 @@
+input
+    type: "input"
+    label   
+    champName => nom du champs pour l'enregistrement 
+    appendIcon => icon a gauche
+    prependIcon => icon a droite
+    messages => messages en dessous
+    rules => régle du champs
+
+select
+    type: "select"
+    label
+    options => tableau avec nom de la selection ex: ["...", "Developer", "Ops", "Project Manager"],
+    champName => nom du champs pour l'enregistrement 
+    rules => régle du champs
+
+radio
+    type: "radio"
+    label
+    options => tableau avec nom de la radio ex: ["Male", "Female"],
+    champName => nom du champs pour l'enregistrement 
+    rules=> régle du champs
+
+textarea
+    type: "textarea"
+    label
+    placeholder => texte avant saisie
+    champName => nom du champs pour l'enregistrement 
+    rules=> régle du champs
+
+checkbox
+    type: "checkbox"
+    label
+    champName => nom du champs pour l'enregistrement 
+    rules=> régle du champs
+    
+datePicker
+    type: "datepicker"
+    label
+    champName => nom du champs pour l'enregistrement 
+    rules=> régle du champs
+
+switch
+    type: "switch"
+    label
+    champName => nom du champs pour l'enregistrement 
+    rules=> régle du champs
+
